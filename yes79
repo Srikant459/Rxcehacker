@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 15)
-#expirydate = datetime.date(2021, 8, 30)
+expirydate = datetime.date(2021, 10, 15)
+#expirydate = datetime.date(2021, 10, 30)
 today=date.today()
 def hero():
 
@@ -31,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(10)
         done = True
 
     def chalo1():
@@ -50,7 +50,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(10)
         done = True
 
     def clear():
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @RXCE_HACKER")
-        print("Enter ",newperiod," Parity Price :")
+        print("Enter "" Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -141,16 +141,16 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=18, second=0, microsecond=0)
 
     if (True):
-            period=251
+            period=()
             hero()
     elif(now>First and now<Firstend):
-            period=280
+            period=()
             hero()
     elif(now>Third and now<Thirdend):
-            period=340
+            period=()
             hero()
     elif(False):
-            period=202
+            period=()
             hero()
     else:
         banner='figlet RXCE'
